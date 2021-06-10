@@ -1,1 +1,3 @@
-
+---
+layout: digitarangdefault
+---
