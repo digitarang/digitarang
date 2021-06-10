@@ -1,2 +1,16 @@
 
 baseurl: /digitarang
+permalink: /:year/:month/:title.html
+markdown: kramdown
+kramdown:
+  input: GFM # Enable GitHub Flavored Markdown (fenced code blocks)
+  hard_wrap: false
+
+google_analytics_id: 
+
+plugins:
+  - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jemoji
+  - jekyll-seo-tag
