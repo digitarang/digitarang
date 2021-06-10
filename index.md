@@ -1,5 +1,5 @@
 ---
-layout: digitarangdefault
+layout: default
 ---
 
 
