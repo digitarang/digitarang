@@ -1,15 +1,15 @@
 
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
-  {% includes head.html %}
+  {% include head.html %}
   <body>
-    {% includes header.html %}
+    {% include header.html %}
     <div class="page-content">
       <div class="wrapper">
         {{ content }}
       </div>
     </div>
-    {% includes footer.html %}
+    {% include footer.html %}
     <script src="{{ "/scripts/digitarang.js" | prepend: site.baseurl }}"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"></script>
   </body>
