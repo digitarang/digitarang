@@ -3,7 +3,61 @@
   {% include head.html %}
   <body>
    <main>
-    {% include header.html %}
+    <header class="stick style1 logo-left">
+                <div class="container d-flex flex-row justify-content-between flex-nowrap">
+                    <div class="header-nav-wrap w-100">
+                        <nav class="nav-wrap d-flex flex-row align-items-center justify-content-between flex-nowrap">
+                            <div class="menu-wrap d-flex flex-row justify-content-start flex-nowrap w-100 active">
+                                <div class="logo">
+                                    <a class="desktop-logo" href="index.html" title="Home">
+                                        <img class="default-logo img-fluid" src="assets/images/logo.png" alt="Logo" srcset="assets/images/logo.png 2x">
+                                        <img class="sticky-logo img-fluid" src="assets/images/logo.png" alt="Logo" srcset="assets/images/logo.png 2x">
+                                    </a>
+                                </div>
+                                <div class="menu d-flex flex-row align-items-center justify-content-end flex-nowrap w-100">
+                                    <ul class="main-menu mb-0 list-unstyled d-flex flex-row align-items-center justify-content-start flex-wrap">
+                                          <li><a href="index.html" title="">Home</a></li>
+                                          <li><a href="about.html" title="">About Us </a></li>
+                                          <li><a href="services.html" title="">Services</a></li>
+                                          <li><a href="pricing-plan.html" title="">Pricing Plan </a></li>
+                                        <li><a href="contact.html" title="">Reach Us</a></li>
+                                        <li><a href="tel:+911135530248" title=""style="cursor:pointer;line-height: 14px;display: inline-block;font-family: Rubik;font-size: 2rem;letter-spacing: 0;font-weight: 600;color:yellow;">+91-1135530248</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                           
+                        </nav>
+                    </div>
+                </div>
+            </header>
+          
+            <div class="responsive-header w-100">
+                <div class="responsive-topbar w-100">
+                    <div class="container d-flex flex-wrap justify-content-between">
+                        <div class="logo">
+                            <a href="index.html" title="Home"><img class="img-fluid" src="assets/images/logo.png" alt="Logo"></a>
+                        </div>
+                        <div class="menu-right-icons text-white d-flex flex-row align-items-center justify-content-end flex-nowrap">
+                            <span class="responsive-menu-btn"><i class="fas fa-align-justify"></i></span>
+                           
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="responsive-menu">
+                    <div class="logo d-inline-block w-100">
+                        <a href="index.html" title="Home"><img class="img-fluid" src="assets/images/logo.png" alt="Logo"></a>
+                    </div>
+                    <ul class="mb-0 list-unstyled">
+                       <li><a href="index.html" title="">Home</a></li>
+                                        <li><a href="about.html" title="">About us</a></li>
+                                        <li><a href="services.html" title="">Services</a></li>
+                                        <li><a href="pricing-plan.html" title="">Pricing plan </a></li>
+                                        <li><a href="contact.html" title="">Reach Us</a></li>
+                                        <li><a href="tel:+911135530248" title="">+91-1135530248</a></li>
+                    </ul>
+                </div>
+            </div>
      <div class="container">
         {{ content }}
      </div>
